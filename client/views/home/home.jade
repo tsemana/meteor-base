@@ -1,0 +1,10 @@
+template(name="home")
+  .container
+    h2 Hello World!
+
+    +if currentUser
+      +with currentUser
+        a(href="{{pathFor route='userProfile'}}")
+          | Your profile page
+    +else
+      | Not signed in

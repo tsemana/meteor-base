@@ -1,0 +1,3 @@
+[submodule "packages/meteor-easy-cfs-images"]
+	path = packages/meteor-easy-cfs-images
+	url = https://github.com/okgrow/meteor-easy-cfs-images.git
